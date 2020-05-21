@@ -8,7 +8,7 @@ defmodule Point do
     end
 
     def right1(%Point{x: x, y: y}) when is_integer(x) and is_integer(y) do
-        %Point{x: x +1, y: y}
+        %Point{x: x + 1, y: y}
      end
 
     # def left1(%Point{x: x, y: y}) when is_integer(x) and is_integer(y) do
